@@ -1,0 +1,301 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    width: 100%;
+    height: 100%;
+}
+
+/*---------------------------------------- START: header ----------------------------------------*/
+#header
+{
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    background: rgba(235,235,235,1);
+    border-bottom: 1px solid rgba(204,204,204,0.85);
+    padding: 0 30px 0 12px;
+    box-sizing: border-box;
+}
+#header img
+{
+    float: left; 
+    width: auto;   
+    height: 100%;
+}
+#header h1
+{
+    float: left;
+    color: #9400d3;
+    font-size: 26px;
+    text-decoration: underline;
+}
+#header .fa
+{
+    float: right;
+    line-height: 52px;
+    color: #9400d3;
+    font-size: 22px;
+}
+#header .fa-user
+{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+/*---------------------------------------- END: header ----------------------------------------*/
+
+/*---------------------------------------- START: menu ----------------------------------------*/
+#menu
+{
+    float: left;
+    width: 22%;
+    height: 780px;
+    background: rgba(235,235,235,1);
+    border-right: 1px solid rgba(204,204,204,0.85);
+    box-sizing: border-box;
+}
+#search-group
+{
+    width: 100%;
+    height: 60px;
+    background: rgba(235,235,235,1);
+    border-bottom: 1px solid rgba(204,204,204,0.85);
+    padding: 10px 12px;
+    box-sizing: border-box;
+}
+#search-group .search-box
+{
+    width: 100%;
+    height: 38px;
+    border: 1px solid rgba(204,204,204,0.85);
+    border-radius: 8px;
+    margin: 0 auto;
+}
+#search-group .text-search
+{
+    width: 80%;
+    height: 38px;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+.fa-search
+{
+    font-size: 18px;
+}
+#search-group .btn-search
+{
+    width: 20%;
+    height: 34px;
+    padding: 4px 8px;
+    outline: none;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+.menu-content
+{
+    width: 100%;
+}
+.menu-content ul
+{
+    list-style: none;
+}
+.menu-content ul li
+{
+    width: 100%;
+    line-height: 40px;
+}
+.menu-content ul li a
+{
+    display: block;
+    text-decoration: none;
+    color: #9400d3;
+    font-size: 20px;
+    padding: 0 12px;
+    border-bottom: 1px solid rgba(204,204,204,0.5);
+}
+.menu-content ul li a:hover
+{
+    transition: 0.3s all;
+    background: rgba(204,204,204,0.5);
+}
+.menu-content ul li .child li a
+{
+    padding-left: 25px;
+    display: block;
+}
+.menu-content ul li .child
+{
+    display: none;
+}
+/*---------------------------------------- END: menu ----------------------------------------*/
+
+
+#content
+{
+    float: right;
+    width: 78%;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-wrapper
+{
+    width: 100%;
+}
+.form-wrapper form
+{
+    width: 100%;
+}
+.form-wrapper form h2
+{
+    text-align: center;
+    font-size: 28px;
+}
+.form-wrapper form table tr
+{
+    height: 32px;
+}
+.form-wrapper form table tr td:nth-child(odd)
+{
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-wrapper form input[type=text]
+{
+    width: 100%;
+    padding: 4px 12px;
+    box-sizing: border-box;
+    border: 1px solid rgb(180,180,180);
+    border-radius: 6px;
+    outline: none;
+    font-size: 18px;
+    color: rgba(40,40,40,0.75);
+}
+.form-wrapper form select
+{
+    width: 30%;
+    padding: 4px 12px;
+    box-sizing: border-box;
+    border: 1px solid rgb(180,180,180);
+    border-radius: 6px;
+    outline: none;
+    font-size: 18px;
+    color: rgba(40,40,40,0.75);
+}
+
+#box-page-btn
+{
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    padding: 4px 8px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+#box-page-btn .page-btn
+{
+    text-decoration: none;
+    font-size: 20px; 
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+/*---------------------------------------- START: DASHBOARD ----------------------------------------*/
+#wrapper-dashboard
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+#wrapper-dashboard .flex-card
+{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#wrapper-dashboard .wrapper-card
+{
+    width: 100%;
+    margin: 0 20px;
+}
+#wrapper-dashboard .top-card
+{
+    width: 100%;
+    border: 2px solid rgba(149,129,157,0.75);
+    border-radius: 8px 8px 0 0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#wrapper-dashboard .bottom-card
+{
+    width: 100%;
+    background: rgba(235,235,235,1);
+    border: 2px solid rgba(149,129,157,0.75);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    padding: 8px 15px;
+    box-sizing: border-box;
+}
+.fa-arrow-alt-circle-right
+{
+    color: rgba(149,129,157,0.75);
+    font-size:16px;
+}
+.fa-arrow-alt-circle-right:hover
+{
+    color: rgba(148,0,211,1);
+}
+/*---------------------------------------- END: DASHBOARD ----------------------------------------*/
+
+.text-center
+{
+    text-align: center;
+}
+.container
+{
+    width: 100%;
+}
+.table
+{
+    width: 100%;
+}
+.table-hover
+{
+    border-collapse: collapse;
+    border: none;
+}
+.table thead tr th
+{
+    font-size: 18px;
+    border-bottom: 2px solid #dedede;    
+}
+.table tr th,td
+{
+    padding: 10px 0 ;
+}
+.table tr td
+{
+    font-size: 16px;
+    border-top: 1px solid #dedede;
+}
+.table tr th, td:last-child
+{
+    border-bottom: none;
+}
+.table-hover tbody tr:hover
+{
+    background: #eeeeee;
+}
+.fa-trash
+{
+    color: #0000ff;
+}
